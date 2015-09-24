@@ -1616,6 +1616,14 @@
 	h3 {
 		font-size: 1.6em;
 	}
+	
+	h3.red {
+		color: #fd7366;
+	}
+	
+	h3.left {
+		text-align: left;
+	}
 
 	h4 {
 		font-size: 1.3em;
@@ -1639,6 +1647,11 @@
 		font-weight: 700;
 		color: #483949;
 	}
+	
+	b.red {
+		font-weight: 700;
+		color: #ef8376;
+	}
 
 	em, i {
 		font-style: italic;
@@ -1658,6 +1671,17 @@
 			color: #ef8376;
 			border-bottom-color: transparent;
 		}
+	
+	a.simple {
+		text-decoration: none;
+		color: inherit;
+		border-bottom: solid 0px rgba(128, 128, 128, 0.15);
+		text-decoration: none;
+		-moz-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+		-webkit-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+		-ms-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+		transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;		
+	}
 
 	sub {
 		position: relative;
