@@ -1612,6 +1612,10 @@
 		margin: 0.25em 0 0.25em 0;
 		color: #000000;
 	}
+	
+	h2.center {
+		text-align: center;
+	}
 
 	h3 {
 		font-size: 1.6em;
