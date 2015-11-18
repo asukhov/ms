@@ -1625,6 +1625,11 @@
 		color: #fd7366;
 	}
 	
+	h3.red-c {
+		color: #fd7366;
+		text-align: center;
+	}
+	
 	h3.left {
 		text-align: left;
 	}
