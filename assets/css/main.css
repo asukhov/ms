@@ -1756,6 +1756,12 @@
 	br.clear {
 		clear: both;
 	}
+	
+    .img-circle {
+        border-radius: 50%;
+		float: right;
+		margin: 0 15px 0px 0px;
+    }
 
 	hr {
 		position: relative;
